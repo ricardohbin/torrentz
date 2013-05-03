@@ -1,0 +1,22 @@
+{
+  "name": "torrentz",
+  "version": "0.0.0",
+  "description": "Torrentz + Node!",
+  "main": "server.js",
+  "dependencies": {
+    "express": "3.2.0",
+    "mongodb": "1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ricardohbin/torrentz.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "gitHead": "6e4ba9fc5fcc63a502f44d696f218f12d9a785d2"
+}
