@@ -1,0 +1,20 @@
+---
+applications:
+  .:
+    name: torrentz
+    framework:
+      name: standalone
+      info:
+        mem: 64M
+        description: Standalone Application
+        exec: 
+    runtime: node08
+    command: node server.js
+    url: 
+    mem: 1G
+    instances: 1
+    services:
+      mongodb-torrentz:
+        type: mongodb
+      redis-torrentz:
+        type: redis
